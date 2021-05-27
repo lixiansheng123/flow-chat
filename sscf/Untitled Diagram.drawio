@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-27T08:35:43.958Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="Mgmu10iboC9oBfRCCQAJ" version="14.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-27T09:03:01.483Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="qUtp5rJYYMurUUS5YH1s" version="14.7.1" type="github">
   <diagram id="hDwlBtDCY1pN-pmzz8m0" name="Page-1">
     <mxGraphModel dx="1426" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -191,7 +191,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HE5TiSospLHtKayZgj1U-55" value="&lt;font color=&quot;#0000ff&quot;&gt;同步用户信息&lt;br&gt;入库&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HE5TiSospLHtKayZgj1U-51">
+        <mxCell id="HE5TiSospLHtKayZgj1U-55" value="同步用户信息&lt;br&gt;入库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HE5TiSospLHtKayZgj1U-51">
           <mxGeometry x="0.4529" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -204,6 +204,11 @@
         </mxCell>
         <mxCell id="HE5TiSospLHtKayZgj1U-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HE5TiSospLHtKayZgj1U-2" target="HE5TiSospLHtKayZgj1U-4">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HE5TiSospLHtKayZgj1U-58" value="只有openid信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HE5TiSospLHtKayZgj1U-17">
+          <mxGeometry x="-0.1014" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="HE5TiSospLHtKayZgj1U-2" value="接收WECHAT服务器消息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="627" y="290" width="90" height="40" as="geometry" />
@@ -239,7 +244,7 @@
         <mxCell id="HE5TiSospLHtKayZgj1U-24" value="昵称等信息是否存在" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="639.5" y="552" width="67" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="HE5TiSospLHtKayZgj1U-27" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="HE5TiSospLHtKayZgj1U-24">
+        <mxCell id="HE5TiSospLHtKayZgj1U-27" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#d80073;strokeColor=#A50040;" edge="1" parent="1" source="HE5TiSospLHtKayZgj1U-24">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="660" y="540" as="sourcePoint" />
             <mxPoint x="673" y="480" as="targetPoint" />
@@ -258,7 +263,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HE5TiSospLHtKayZgj1U-47" value="&lt;font&gt;不存在昵称等信息&lt;br&gt;到user服务同步&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#0000FF;" vertex="1" connectable="0" parent="HE5TiSospLHtKayZgj1U-46">
+        <mxCell id="HE5TiSospLHtKayZgj1U-47" value="&lt;font color=&quot;#000000&quot;&gt;不存在昵称等信息&lt;br&gt;到user服务同步&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#0000FF;" vertex="1" connectable="0" parent="HE5TiSospLHtKayZgj1U-46">
           <mxGeometry x="-0.598" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -268,6 +273,36 @@
             <mxPoint x="230" y="250" as="sourcePoint" />
             <mxPoint x="280" y="200" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="HE5TiSospLHtKayZgj1U-62" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="10" y="940" width="360" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="HE5TiSospLHtKayZgj1U-63" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="560" y="800" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HE5TiSospLHtKayZgj1U-64" value="CRM抖音用户储存更新逻辑(以下操作都在接受到私信事件触发):" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="16" y="950" width="354" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HE5TiSospLHtKayZgj1U-65" value="1,储存判断openid是否存在抖音用户,没有入库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="10" y="970" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HE5TiSospLHtKayZgj1U-66" value="2,更新抖音用户最后发送消息等信息,检查头像昵称等信&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;息,如果没有请求用户服务进行同步处理" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="33" y="1000" width="304" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HE5TiSospLHtKayZgj1U-69" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="388.5" y="940" width="381.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="HE5TiSospLHtKayZgj1U-70" value="用户服务抖音用户储存更新逻辑(以下操作都在接受到私信事件触发):" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="388.5" y="949" width="371.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HE5TiSospLHtKayZgj1U-71" value="1,储存判断openid是否存在抖音用户,没有入库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="381" y="970" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HE5TiSospLHtKayZgj1U-72" value="2,更新抖音用户最后发送消息等信息,&lt;span&gt;检查头像昵称等信息,没有请求wechat用户详情同步&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="402" y="1000" width="368" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HE5TiSospLHtKayZgj1U-73" value="3,接收到CRM请求用户信息接口,先从本地检查头像信息,信息完整&lt;br&gt;返回,没有则从wechat服务请求详情信息接口,补全信息并返回" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="398" y="1030" width="358" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
