@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-27T08:11:48.183Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="kVdmig6gNkhMCihkH0zx" version="14.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-27T08:29:45.014Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="TBwvZpK5WX2erqYpQrhd" version="14.7.1" type="github">
   <diagram id="hDwlBtDCY1pN-pmzz8m0" name="Page-1">
     <mxGraphModel dx="1426" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -133,7 +133,7 @@
           <mxGeometry x="386" y="390" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Sdlp5T6TtWP1QdONSsh7-30" value="抖音用户数据" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=-90;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="411.25" y="437.5" width="39.5" height="85" as="geometry" />
+          <mxGeometry x="414" y="437.5" width="39.5" height="85" as="geometry" />
         </mxCell>
         <mxCell id="Sdlp5T6TtWP1QdONSsh7-31" value="数据推送至IM服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="388.5" y="590" width="85" height="40" as="geometry" />
@@ -199,11 +199,57 @@
         <mxCell id="HE5TiSospLHtKayZgj1U-4" value="抖音用户数据" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="642" y="399" width="60" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="HE5TiSospLHtKayZgj1U-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HE5TiSospLHtKayZgj1U-10" target="HE5TiSospLHtKayZgj1U-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="HE5TiSospLHtKayZgj1U-10" value="查询用户信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="621" y="525" width="90" height="40" as="geometry" />
+          <mxGeometry x="628" y="700" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HE5TiSospLHtKayZgj1U-19" value="聊天信息" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=-90;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="411.25" y="502.5" width="39.5" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="HE5TiSospLHtKayZgj1U-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HE5TiSospLHtKayZgj1U-24" target="Sdlp5T6TtWP1QdONSsh7-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="585" />
+              <mxPoint x="790" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HE5TiSospLHtKayZgj1U-32" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HE5TiSospLHtKayZgj1U-31">
+          <mxGeometry x="-0.4609" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HE5TiSospLHtKayZgj1U-44" value="存在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HE5TiSospLHtKayZgj1U-24" target="HE5TiSospLHtKayZgj1U-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HE5TiSospLHtKayZgj1U-24" value="昵称等信息是否存在" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="639.5" y="552" width="67" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="HE5TiSospLHtKayZgj1U-27" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="HE5TiSospLHtKayZgj1U-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="540" as="sourcePoint" />
+            <mxPoint x="673" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HE5TiSospLHtKayZgj1U-46" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="HE5TiSospLHtKayZgj1U-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="480" as="sourcePoint" />
+            <mxPoint x="570" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="480" />
+              <mxPoint x="550" y="560" />
+              <mxPoint x="628" y="560" />
+              <mxPoint x="628" y="660" />
+              <mxPoint x="590" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HE5TiSospLHtKayZgj1U-47" value="不存在昵称等信息&lt;br&gt;到user服务同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HE5TiSospLHtKayZgj1U-46">
+          <mxGeometry x="-0.598" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
