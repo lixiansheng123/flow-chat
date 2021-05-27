@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-27T08:35:05.863Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="zY940a7BTwWUXFM9yzUb" version="14.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-27T08:35:43.958Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="Mgmu10iboC9oBfRCCQAJ" version="14.7.1" type="github">
   <diagram id="hDwlBtDCY1pN-pmzz8m0" name="Page-1">
     <mxGraphModel dx="1426" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -233,7 +233,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HE5TiSospLHtKayZgj1U-44" value="存在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HE5TiSospLHtKayZgj1U-24" target="HE5TiSospLHtKayZgj1U-10">
+        <mxCell id="HE5TiSospLHtKayZgj1U-44" value="存在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d80073;strokeColor=#A50040;" edge="1" parent="1" source="HE5TiSospLHtKayZgj1U-24" target="HE5TiSospLHtKayZgj1U-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HE5TiSospLHtKayZgj1U-24" value="昵称等信息是否存在" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
@@ -245,7 +245,7 @@
             <mxPoint x="673" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HE5TiSospLHtKayZgj1U-46" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="HE5TiSospLHtKayZgj1U-10">
+        <mxCell id="HE5TiSospLHtKayZgj1U-46" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d80073;strokeColor=#A50040;" edge="1" parent="1" target="HE5TiSospLHtKayZgj1U-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="470" y="480" as="sourcePoint" />
             <mxPoint x="570" y="460" as="targetPoint" />
