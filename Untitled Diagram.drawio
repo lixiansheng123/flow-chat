@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-20T09:11:33.707Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="jCbfeggZ4cG7k0J7lKwO" version="15.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-20T09:13:11.928Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="mxyHKBAsSbWKMn5Aj9cY" version="15.2.7" type="github">
   <diagram id="rWnsiP7QuSSRh8jgL5Og" name="Page-1">
     <mxGraphModel dx="1374" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -66,11 +66,6 @@
             <mxPoint x="260" y="628" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OWBR-wIOsk2GOevRnEyG-49" value="明文、密文各一份&lt;br&gt;,如有的话" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OWBR-wIOsk2GOevRnEyG-48" vertex="1" connectable="0">
-          <mxGeometry x="0.0101" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="OWBR-wIOsk2GOevRnEyG-42" value="报文数据" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="220" y="570" width="80" height="30" as="geometry" />
         </mxCell>
@@ -78,15 +73,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OWBR-wIOsk2GOevRnEyG-47" value="储存到本地,数据库" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="220" y="693" width="80" height="30" as="geometry" />
+          <mxGeometry x="220" y="679" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OWBR-wIOsk2GOevRnEyG-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="OWBR-wIOsk2GOevRnEyG-47" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="150" y="708" as="sourcePoint" />
+            <mxPoint x="150" y="694" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OWBR-wIOsk2GOevRnEyG-52" value="生成报文ID" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="100" y="687" width="50" height="40" as="geometry" />
+        <mxCell id="OWBR-wIOsk2GOevRnEyG-52" value="&lt;br&gt;明文、密文都进行储存,生成报文ID" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="650.5" width="100" height="87" as="geometry" />
         </mxCell>
         <mxCell id="OWBR-wIOsk2GOevRnEyG-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OWBR-wIOsk2GOevRnEyG-54" target="OWBR-wIOsk2GOevRnEyG-64" edge="1">
           <mxGeometry relative="1" as="geometry" />
